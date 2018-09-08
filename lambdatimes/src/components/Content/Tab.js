@@ -1,9 +1,19 @@
 import React from 'react';
+// import React, { Component } from 'react';
 
 const Tab = props => {
+// class Tab extends Component { 
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       tabs: props.tabs
+//     };
+//   }
+  
   /* Using your props, determine if the `tab` prop matches the `selectedTab` prop, 
       if they match, the className should be: 'tab active-tab', 
       if it is not it should just be 'tab'*/
+  // render() {
   return (
     <div
       className={''}
@@ -15,6 +25,7 @@ const Tab = props => {
       {props.tab.toUpperCase()}
     </div>
   );
+// }
 };
 
 // Make sure you include PropTypes on your props.
